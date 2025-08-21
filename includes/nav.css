@@ -1,0 +1,85 @@
+#btn_form_lang {
+    background: none;
+    color: #fff;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+#btn_form_lang.scrolly {
+    color: #555;
+}
+
+@media (max-width: 991.98px) {
+    #btn_form_lang {
+        color: black;
+    }
+}
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.navbar .navbar-nav .active {
+    color: #f80000 !important;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+        color: white;
+    }
+
+    .navbar .nav-link {
+        background-color: white;
+        color: black;
+        border-bottom: 1px solid rgb(241, 241, 241);
+    }
+
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: black;
+    }
+
+    .navbar.active {
+        padding-top: 30px;
+    }
+}
